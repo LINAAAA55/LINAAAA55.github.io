@@ -1,50 +1,32 @@
 # Lina Barhoumi — Mobile Development Portfolio
 
-A responsive GitHub Pages portfolio built with plain HTML, CSS and JavaScript. It showcases two native Android projects with real screenshots, implementation notes, UX/UI decisions, color palettes and a practical self-assessment of technical skills.
+An interactive, English-language portfolio presenting two Android projects and the academic competencies demonstrated through **MiniShop Manager**.
 
-## Featured projects
+## Portfolio sections
 
-- **LUMA** — Kotlin + Jetpack Compose sleep planning app with cycle-based time suggestions, sleep logs, SQLite persistence and Android alarm scheduling.
-- **MiniShop Manager** — Kotlin Android app with a JSON-powered product catalogue, search/category filters, cart and checkout flow, sales history, profile management, dark mode and French/Arabic localization.
+- **Home** — introduction and quick links.
+- **Projects** — LUMA and MiniShop Manager, with screenshots, features, implementation notes and repository links.
+- **Academic Project** — the MiniShop Manager study-project brief, target competencies and implementation evidence, a professional use case, and self-assessment.
+- **Skills** — practical, self-assessed proficiency levels supported by project examples.
+- **About & Contact** — background, GitHub and LinkedIn.
 
-## Project structure
+## Student information
 
-```text
-mobile-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets/
-    ├── luma-home.png
-    ├── luma-alarms.png
-    ├── minishop-catalogue.png
-    └── minishop-profile.png
-```
+- **Student:** Lina Barhoumi
+- **Username:** @bl00dr31n4
+- **Program / Group:** GTIC L3A
+- **Course instructor:** Dr Asma Ayari
+- **Lab instructor:** Amani Chouickhi
 
 ## Publish with GitHub Pages
 
-1. Create a public repository named `LINAAAA55.github.io` (or use your existing Pages repository).
-2. Upload the **contents** of this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, choose `main` and `/(root)`, then Save.
-5. Your site should be available at `https://LINAAAA55.github.io/` after deployment completes.
+1. Copy the contents of this folder (`index.html`, `style.css`, `script.js`, `assets/`) into the root of the repository.
+2. Commit and push the changes to the `main` branch.
+3. In the repository settings, open **Pages** and select **Deploy from a branch**, `main`, and `/(root)`.
+4. Wait for the Pages deployment workflow to finish.
 
-## Before publishing
+## Notes
 
-- Replace the LinkedIn placeholder with your actual profile URL.
-- Add the direct MiniShop Manager repository URL if it has its own public repository.
-- Review the self-assessed skill levels and adjust them to match your confidence.
-
-The skill levels are practical self-assessments, not formal certifications. The LUMA cycle calculator is described as the app's implemented 90-minute planning model, not as a medical sleep assessment.
-
-
-## Interactive portfolio features
-
-- Intro / access sequence (skippable with Escape)
-- Sticky navigation with active-section indicator and scroll progress
-- Command palette: press `/` or `Ctrl/Cmd + K` to jump to sections
-- Interactive terminal: use the “Open terminal” button and commands such as `help`, `projects`, `sae`, `skills`, `about`, and `contact`
-- Responsive mobile navigation, scroll reveals, and screenshot lightbox
-
-Profile links: GitHub repository `LINAAAA55/Mobilemanager`; LinkedIn `lina-barhoumi-393a6a364`. Display handle: `@bl00dr31n4`.
+- The proficiency levels are self-assessments, not formal certifications.
+- The portfolio describes implementation evidence visible in the project source. Add emulator screenshots or additional evidence if required by the course submission.
+- LUMA and MiniShop Manager have separate source repositories linked from their project sections.
