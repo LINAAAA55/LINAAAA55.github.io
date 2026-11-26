@@ -37,3 +37,14 @@ mobile-portfolio/
 - Review the self-assessed skill levels and adjust them to match your confidence.
 
 The skill levels are practical self-assessments, not formal certifications. The LUMA cycle calculator is described as the app's implemented 90-minute planning model, not as a medical sleep assessment.
+
+
+## Interactive portfolio features
+
+- Intro / access sequence (skippable with Escape)
+- Sticky navigation with active-section indicator and scroll progress
+- Command palette: press `/` or `Ctrl/Cmd + K` to jump to sections
+- Interactive terminal: use the “Open terminal” button and commands such as `help`, `projects`, `sae`, `skills`, `about`, and `contact`
+- Responsive mobile navigation, scroll reveals, and screenshot lightbox
+
+Profile links: GitHub repository `LINAAAA55/Mobilemanager`; LinkedIn `lina-barhoumi-393a6a364`. Display handle: `@bl00dr31n4`.
